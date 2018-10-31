@@ -1,0 +1,133 @@
+.kath_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px white;
+    object-fit: cover;
+}
+
+#banner {
+  background-color: #2B2E4A;
+  padding: 70px;
+  text-align: center;
+  border-radius: 3px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px color: #3B2E5A;
+}
+
+#intro {
+  background-color: #E84545;
+  padding: 40px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 2px 2px 3px black;
+}
+
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#links-box {
+  background-color: #903749;
+  padding: 40px;
+  margin: 50px;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#social-media {
+  font-size: 10px;
+  color: white;
+}
+
+.podcast {
+  padding: 20px;
+  margin: 50px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+
+.podcast-image {
+  padding: 40px;
+  margin: 0;
+  padding: 30px;
+  display: block;
+}
+
+#podcasts {
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  text-align: center;
+  width: 60%;
+  padding: 30px;
+  margin: auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  padding: 12px 0 12px 0;
+}
+
+.container {
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  text-align: center;
+  width: 60%;
+  padding: 30px;
+  margin: auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  padding: 12px 0 12px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+
+  font-size: 40px;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+h3 {
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  text-decoration: bold;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+p {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  width: 50%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
