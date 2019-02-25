@@ -50,6 +50,23 @@
   text-decoration: none;
 }
 
+.card {
+  width: 400px;
+  position: relative;
+  background-position: center;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: black;
+}
+
 #social-media {
   font-size: 10px;
   color: white;
