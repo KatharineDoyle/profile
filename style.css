@@ -10,7 +10,7 @@
 }
 
 #banner {
-  background-color: #2B2E4A;
+  background-color: #FFFFFF;
   padding: 70px;
   text-align: center;
   border-radius: 3px;
@@ -89,6 +89,21 @@
   margin: auto;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   padding: 12px 0 12px 0;
+}
+
+.btn-explore {
+  color: white;
+  background-color: #FF9770;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.btn-explore:hover {
+  text-decoration: none;
+}
+
+#banner h1, h2 {
+  color: #696969;
 }
 
 h1 {
