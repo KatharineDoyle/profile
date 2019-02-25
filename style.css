@@ -19,16 +19,6 @@
   box-shadow: 1px 1px 3px color: #3B2E5A;
 }
 
-#intro {
-  background-color: #E84545;
-  padding: 40px;
-  margin: 50px;
-  text-align: center;
-  border-radius: 3px;
-  text-align: center;
-  box-shadow: 2px 2px 3px black;
-}
-
 .intro-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -56,15 +46,26 @@
   background-position: center;
 }
 
+.card-image:hover {
+    background-color: #000;
+    opacity:0.5;
+}
+
 .card-image {
   width: 100%;
 }
 
 .card-title {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
   color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+
+.card-description {
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 #social-media {
@@ -152,7 +153,6 @@ h4 {
 p {
   font-family: 'Kanit', sans-serif;
   font-size: 20px;
-  width: 50%;
 }
 
 a {
