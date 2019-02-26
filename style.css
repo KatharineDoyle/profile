@@ -69,14 +69,12 @@
 }
 
 .card-title {
-  color: black;
-  font-family: 'Oxygen', sans-serif;
-  font-size: 15px;
+  font-size: 40px;
 }
 
 .card-description {
   color: black;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: lighter;
 }
@@ -125,21 +123,20 @@
 }
 
 h1 {
-  color: white;
-  font-size: 70px;
-  font-family: 'Kanit', sans-serif;
+  color: #727180;
+  font-family: Gruppo;
+  font-weight: bolder;
 }
 
 h2 {
-
+  font-family: 'Oxygen', sans-serif;
   font-size: 40px;
   color: black;
-  font-family: 'Kanit', sans-serif;
 }
 
 h3 {
   color: black;
-  font-family: 'Kanit', sans-serif;
+
   font-size: 75px;
   text-align: center;
   text-decoration: bold;
@@ -147,11 +144,10 @@ h3 {
 
 h4 {
   font-size: 30px;
-  font-family: 'Kanit', sans-serif;
 }
 
 p {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
 
