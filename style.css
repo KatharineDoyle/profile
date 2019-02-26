@@ -1,6 +1,6 @@
 #banner {
   background-size: cover !important;
-  background-image: url("images/Banner.png");
+  background-image: url("images/Bubbles.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: fixed;
@@ -10,12 +10,17 @@
   background-color: #FFFFFF;
   text-align: center;
   box-shadow: 1px 1px 3px color: #3B2E5A;
-  margin: auto;
+  margin: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+#banner h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
 .kath_image {
   display: block;
   margin-left: auto;
@@ -41,7 +46,7 @@
   padding: 90px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  width: 100%;
+  margin: none;
 }
 
 #links-box h2 {
@@ -189,13 +194,16 @@
 }
 
 .whatido {
-  background-color: #B3F8EA;
+  background-color: #B8B5B7;
   margin: auto;
 }
 
 .whatido h1 {
   align-content: center;
   text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 #projects h1 {
