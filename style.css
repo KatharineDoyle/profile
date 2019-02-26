@@ -1,8 +1,8 @@
 #banner {
   background-size: cover !important;
-  background-image: url("images/Bubbles.png");
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/Bubbles.png");
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: center top;
   background-attachment: fixed;
   display: block;
   max-width: 100%;
@@ -10,7 +10,10 @@
   background-color: #FFFFFF;
   text-align: center;
   box-shadow: 1px 1px 3px color: #3B2E5A;
-  margin: none;
+  margin: 0 auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +44,17 @@
   font-size: 20px;
 }
 
+.intro-content h1 {
+  color: dimgrey;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.intro-content h2 {
+  color: dimgrey;
+  font-size: 22px;
+}
+
 #links-box {
   background-color: #7E7D7D;
   padding: 90px;
@@ -50,6 +64,12 @@
 }
 
 #links-box h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#links-box h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: white;
@@ -152,8 +172,12 @@
   color: black;
 }
 
-#banner h1, h2 {
-  color: #696969;
+#banner h1{
+  color: #404040;
+}
+
+#banner h2 {
+  color: #545454;
 }
 
 #me-info {
@@ -218,6 +242,24 @@
 .recent-activity h1 {
   align-content: center;
   text-align: center;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #B8BEE0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+}
+
+.footer p {
+  color: white;
 }
 
 p {
