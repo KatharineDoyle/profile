@@ -17,14 +17,14 @@
   justify-content: center;
 }
 .kath_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 2px 2px 3px white;
-    object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px white;
+  object-fit: cover;
 }
 
 
@@ -37,18 +37,35 @@
 }
 
 #links-box {
-  background-color: #903749;
+  background-color: #7E7D7D;
   padding: 40px;
-  margin: 50px;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+#links-box h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  list-style-type: none;
-  font-size: 20px;
   color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.link {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.link:hover {
   text-decoration: none;
 }
 
@@ -171,6 +188,11 @@
   line-height: 1.5;
 }
 
+.whatido {
+  background-color: #B3F8EA;
+  margin: auto;
+}
+
 .whatido h1 {
   align-content: center;
   text-align: center;
@@ -179,6 +201,10 @@
 #projects h1 {
   align-content: center;
   text-align: center;
+}
+
+.recent-activity .card {
+  background-color:
 }
 
 p {
