@@ -38,7 +38,7 @@
 
 #links-box {
   background-color: #7E7D7D;
-  padding: 40px;
+  padding: 90px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   width: 100%;
@@ -205,6 +205,11 @@
 
 .recent-activity .card {
   background-color:
+}
+
+.recent-activity h1 {
+  align-content: center;
+  text-align: center;
 }
 
 p {
