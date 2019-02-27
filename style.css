@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  z-index: 2;
 }
 
 #btn-contact {
@@ -32,8 +33,13 @@
   right: 30px;
 }
 
+#btn-contact:hover {
+  text-decoration: none;
+}
+
 canvas.dots {
   position: absolute;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
