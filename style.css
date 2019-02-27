@@ -104,6 +104,12 @@
   background-color: #F9F9F9;
 }
 
+.card:hover {
+  top: 5px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+
+}
+
 .card-image:hover {
     background-color: #000;
     opacity:0.5;
@@ -235,9 +241,6 @@
   text-align: center;
 }
 
-.recent-activity .card {
-  background-color:
-}
 
 .recent-activity h1 {
   align-content: center;
