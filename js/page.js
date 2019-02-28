@@ -18,9 +18,7 @@ var dots = [
   { x: 190, y: 99, radius: 150, xMove: '-', yMove: '-' },
 ];
 
-// Notice in the moveDot function we can make dots go faster if we increment
-// by more than 1 pixel each time.
-var frameLength = 2;
+var frameLength = 3;
 
 // Draw each dot in the dots array.
 for( i = 0; i < dots.length; i++ ) {
