@@ -1,3 +1,7 @@
+body {
+  margin:0;
+}
+
 .banner {
   background-size: cover !important;
  /* background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/Bubbles.png");*/
