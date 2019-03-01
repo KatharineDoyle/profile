@@ -24,8 +24,8 @@
 }
 
 .top-navbar {
-  border-bottom: 5px solid #3eb7a9;
-  padding: 20px;
+  border-bottom: 5px solid #696969;
+  padding: 15px;
 }
 
 #btn-contact {
@@ -69,8 +69,6 @@ canvas.dots {
 .sidenav {
   background-color: black;
   border-bottom: black;
-  z-index: 1;
-  border-bottom: 5px solid yellow;
   height: 100%;
   width: 0;
   position: fixed;
@@ -129,7 +127,7 @@ canvas.dots {
 }
 
 .intro-content h2 {
-  color: dimgrey;
+  color: #9e9e9e;
   font-size: 22px;
 }
 
